@@ -1,0 +1,134 @@
+.description.my-8
+    .description-container
+        .title
+            a(style="cursor:pointer")#des.uppercase.acti description
+            a(style="cursor:pointer")#info.uppercase more info
+            a(style="cursor:pointer")#tag.uppercase tags
+            a(style="cursor:pointer")#review.uppercase review (3)
+    .description-content
+        .descrip
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ipsa molestiae blanditiis? Placeat a quae corrupti explicabo magnam illum sint, cupiditate hic possimus perspiciatis officia harum, facilis accusamus tempore debitis.
+            .check
+                i.fas.fa-check-circle
+                | Any Product types that You want - Simple, Configurable
+            .check
+                i.fas.fa-check-circle
+                | Any Product types that You want - Simple, Configurable
+            .check
+                i.fas.fa-check-circle
+                | Any Product types that You want - Simple, Configurable
+            p Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            p quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        .more-info.hide
+            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consectetur animi commodi amet deleniti illum explicabo mollitia tempore dicta sapiente consequatur a, nesciunt odio, soluta omnis assumenda. Recusandae, quisquam omnis?
+        .tags.hide
+            h2.uppercase add your tags
+            input(type="text") 
+            a(href="#") ADD TAGS
+            p Use spaces to separate tags. Use single quotes (') for phrases
+        .review.hide
+            .review-container
+                .customer-review
+                    h2.mb-2 3 review for Product Short Name
+                    .john-review.mt-4
+                        figure 
+                            img(src="../image/avatar1.jpg", alt="") 
+                        .review-content
+                            i.fas.fa-star.vote
+                            i.fas.fa-star.vote
+                            i.fas.fa-star.vote
+                            i.fas.fa-star
+                            i.fas.fa-star
+                            h3 Jonh Doe
+                                span - november 15, 2019
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, pariatur laudantium nisi vitae cupiditate earum eos? Itaque sed laborum mollitia odit doloremque, ratione eum suscipit veritatis consequatur exercitationem culpa unde!
+                    .john-review.mt-4
+                        figure 
+                            img(src="../image/avatar2.jpg", alt="") 
+                        .review-content
+                            i.fas.fa-star.vote
+                            i.fas.fa-star.vote
+                            i.fas.fa-star.vote
+                            i.fas.fa-star.vote
+                            i.fas.fa-star
+                            h3 Jonh Doe
+                                span - november 15, 2019
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, pariatur laudantium nisi vitae cupiditate earum eos? Itaque sed laborum mollitia odit doloremque, ratione eum suscipit veritatis consequatur exercitationem culpa unde!
+                    .john-review.mt-4
+                        figure 
+                            img(src="../image/avatar3.jpg", alt="") 
+                        .review-content
+                            i.fas.fa-star.vote
+                            i.fas.fa-star
+                            i.fas.fa-star
+                            i.fas.fa-star
+                            i.fas.fa-star
+                            h3 Jonh Doe
+                                span - november 15, 2019
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, pariatur laudantium nisi vitae cupiditate earum eos? Itaque sed laborum mollitia odit doloremque, ratione eum suscipit veritatis consequatur exercitationem culpa unde!
+                .comment-review
+                    .review-box
+                        h4 add a review
+                        h5 Your Rating  
+                        .vote
+                            i.fas.fa-star
+                            i.fas.fa-star
+                            i.fas.fa-star
+                            i.fas.fa-star
+                            i.fas.fa-star
+                        .your-re
+                            h3 Your Review
+                            textarea.area(cols="5" rows="6" style="margin-top: 0px; height: 112px;")
+                        .your-na
+                            h3 Your Name
+                            input(type="text")
+                        .email
+                            h3 Your Email
+                            input(type="text")
+                        input.sub(type="submit" value="SUBMIT" style="cursor:pointer")
+script.
+    $('#des').click(function(e){
+        $('#des').addClass("acti");
+        $('#info').removeClass("acti");
+        $('#tag').removeClass("acti");
+        $('#review').removeClass("acti");
+        $('.descrip').removeClass("hide");
+        $('.more-info').addClass("hide");
+        $('.tags').addClass("hide");
+        $('.review').addClass("hide");
+
+    })
+    $('#info').click(function(e){
+        $('#info').addClass("acti");
+        $('#des').removeClass("acti")
+        $('#tag').removeClass("acti")
+        $('#review').removeClass("acti")
+        $('.descrip').addClass("hide");
+        $('.more-info').removeClass("hide");
+        $('.tags').addClass("hide");
+        $('.review').addClass("hide");
+    })
+    $('#tag').click(function(e){
+        $('#tag').addClass("acti");
+        $('#info').removeClass("acti")
+        $('#des').removeClass("acti")
+        $('#review').removeClass("acti")
+        $('.descrip').addClass("hide");
+        $('.more-info').addClass("hide");
+        $('.tags').removeClass("hide");
+        $('.review').addClass("hide");
+    })
+    $('#review').click(function(e){
+        $('#review').addClass("acti");
+        $('#info').removeClass("acti")
+        $('#tag').removeClass("acti")
+        $('#des').removeClass("acti")
+        $('.descrip').addClass("hide");
+        $('.more-info').addClass("hide");
+        $('.tags').addClass("hide");
+        $('.review').removeClass("hide");
+    })
+    
+
+        
+        

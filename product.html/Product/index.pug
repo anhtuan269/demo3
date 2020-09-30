@@ -1,0 +1,93 @@
+.product-info.mt-6.mb-8
+    .link-adress.mb-2
+        i.fas.fa-home
+        i.fas.fa-angle-right
+        a(href="product.html").uppercase product
+    .product-info-container.mb-2
+        .show
+            .product-show.owl-carousel.owl-theme
+                .show-info
+                    firure.zoom(style="background:url(../image/product-1-1.jpg)" onmousemove="zoom(event)" ontouchmove="zoom(event)") 
+                        img(src="../image/product-1-1.jpg", alt="")
+                .show-info
+                    firure 
+                        img(src="../image/product-2-2.jpg", alt="")
+                .show-info
+                    firure 
+                        img(src="../image/product-3-2.jpg", alt="")
+                .show-info
+                    firure 
+                        img(src="../image/product-4-4.jpg", alt="")
+            .image-dots
+                img#dot0.border(src="../image/product-1-1.jpg", alt="")
+                img#dot1(src="../image/product-2-2.jpg", alt="")
+                img#dot2(src="../image/product-3-2.jpg", alt="")
+                img#dot3(src="../image/product-4-4.jpg", alt="")
+        .information.mb-2
+            h2 Product Long Name
+            .review.mb-2
+                .star
+                    i.fas.fa-star.vote
+                    i.fas.fa-star.vote
+                    i.fas.fa-star.vote
+                    i.fas.fa-star
+                    i.fas.fa-star
+                a(href="#") (6 review)
+            h5.mb-2 $49
+            p.mb-2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cum inventore sunt ratione veniam aspernatur deserunt delectus at debitis, laboriosam culpa ipsa. 
+                a(href="#") ( read more ...)
+            .size.mb-2
+                h3.uppercase size:
+                a#s.actived(href="#") S
+                a#m(href="#") M
+                a#l(href="#") L 
+                a#xl(href="#") XL
+            .add-cart
+                i.fas.fa-shopping-bag
+                a(href="#") ADD TO CART
+            .social
+                .left-social
+                    i.fab.fa-twitter
+                    i.fab.fa-facebook-f
+                    i.fab.fa-linkedin-in
+                    i.fab.fa-google-plus-g
+                    i.far.fa-envelope
+                .right-social
+                    i.far.fa-heart
+                    a.uppercase(href="#") add to wishlist
+script.
+    function zoom(e) {
+        var zoomer = e.currentTarget;
+        e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX
+        e.offsetY ? offsetY = e.offsetY : offsetX = e.touches[0].pageX
+        x = (offsetX / zoomer.offsetWidth) * 100
+        y = (offsetY / zoomer.offsetHeight) * 100
+        zoomer.style.backgroundPosition = x + "% " + y + "%";
+    }
+    $('#s').click(function(e){
+        $('#s').addClass("actived")
+        $('#m').removeClass("actived")
+        $('#l').removeClass("actived")
+        $('#xl').removeClass("actived")
+    })
+    $('#m').click(function(e){
+        $('#m').addClass("actived")
+        $('#s').removeClass("actived")
+        $('#l').removeClass("actived")
+        $('#xl').removeClass("actived")
+    })
+    $('#l').click(function(e){
+        $('#l').addClass("actived")
+        $('#m').removeClass("actived")
+        $('#s').removeClass("actived")
+        $('#xl').removeClass("actived")
+    })
+    $('#xl').click(function(e){
+        $('#xl').addClass("actived")
+        $('#m').removeClass("actived")
+        $('#l').removeClass("actived")
+        $('#s').removeClass("actived")
+    })
+                        
+
+                

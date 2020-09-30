@@ -1,0 +1,177 @@
+@media screen and (min-width:320px){
+    .footer  {
+        background-color:#222529;
+    }
+    .footer .footer-container .top-footer h2 {
+        font-family: 'Shadows Into Light', cursive;
+        background-color:#08c;
+        display:inline-block;
+        color:#FFF;
+        padding: 10px 20px;
+        position:absolute;
+        top:-15px;
+        left:7px
+    }
+    .footer .footer-container .top-footer .arrow-up {
+        width:0;
+        height:0;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 12px solid #005580;;
+        transform: rotate(135deg);
+        position:absolute;
+        top:-9px;
+        left:-9px;
+    }
+    .footer .footer-container {
+        max-width: 94%;
+        margin:auto;
+        position:relative;
+    }
+    .midle-footer {
+        padding-top:50px;
+        padding-left:10px;
+    }
+    .midle-footer .left-footer h2 {
+        color: #FFF;
+        font-family:Poppins, sans-serif;
+        font-weight:700;
+    }
+    .midle-footer .left-footer h3 {
+        color:#FFF;
+    }
+    .midle-footer .left-footer p{
+        font-size: 0.9em;
+    }
+    .midle-footer .left-footer i {
+        margin: 5px 10px;
+        padding: 10px 10px;
+        border: 1px solid #EEE;
+        border-radius: 50%;
+        background-color: #222529;
+        color:#FFF;
+        font-size: 0.9em;
+    }
+    .midle-footer .left-footer .fa-instagram {
+        padding:9px 10px;
+    }
+    .midle-footer .left-footer .fa-facebook-f{
+        padding: 9px 13px;
+    }
+    .right-footer .top .subscribe {
+        padding-top: 20px;
+    }
+    .right-footer .top .subscribe h2 {
+        font-family:Poppins,sans-serif;
+        font-weight:700;
+        color:#FFF;
+    }
+    .right-footer .top .subscribe p {
+        font-size:0.9em;
+    }
+    .right-footer .top .input-subscribe .form {
+        padding: 10px 2px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        background-color:#292C30;
+    }
+    .right-footer .top .input-subscribe .btn {
+        padding: 10px 13px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #08c;
+        color:#FFF;
+        font-family: Poppins, sans-serif;
+        font-weight:700;
+    }
+    .right-footer .bot .customer h3 {
+        color:#FFF;
+        font-family:Poppins, sans-serif;
+        font-weight:700;
+    }
+    .right-footer .bot .customer table tr td {
+        padding-right: 45px;
+        padding-bottom: 5px;
+    }
+    .right-footer .bot .about h3 {
+        color:#FFF;
+        font-family:Poppins, sans-serif;
+        font-weight:700;
+    }
+    .right-footer .bot .about table tr td {
+        padding-right: 45px;
+        padding-bottom: 5px;
+    }  
+
+}
+@media screen and (min-width:480px){
+
+    .right-footer .top .input-subscribe .form {
+        padding: 10px 50px;
+    }
+    .right-footer .top .input-subscribe .btn {
+        padding: 10px 25px;
+    }
+    .right-footer .bot .customer table tr td{
+        padding-right:130px;
+    }
+    .right-footer .bot .about table tr td {
+        padding-right:130px;
+    }
+}
+@media screen and (min-width:768px){
+    .footer {
+        height:410px;
+    }
+    .midle-footer {
+        display:flex;
+        justify-content: space-between;
+    }
+    .midle-footer .top {
+        padding-bottom:20px;
+        border-bottom:1px solid #999;
+    }
+    .midle-footer .right-footer .bot {
+        display:flex;
+        justify-content: space-between;
+        width:520px;
+    }
+    .right-footer .bot .customer table tr td{
+        padding-right:20px;
+    }
+    .right-footer .bot .about table tr td {
+        padding-right:20px;
+    }
+    .end-footer {
+        position: relative;
+    }
+    .end-footer img {
+        position:absolute;
+        right:10px;
+        bottom:-13px
+    }
+}
+@media screen and (min-width:890px){
+    .midle-footer .right-footer .bot {
+        width:570px;
+    }
+}
+@media screen and (min-width:1200px){
+    .footer .footer-container {
+        max-width:1150px;
+        margin:auto;
+        
+    }
+    .midle-footer .right-footer .top {
+        display: flex;
+        justify-content: space-between;
+        width: 810px;
+    }
+    .right-footer .top .input-subscribe {
+        position:relative;
+        top:20px;
+    }
+    .midle-footer .right-footer .bot {
+        width:685px;
+    }
+}

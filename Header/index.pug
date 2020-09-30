@@ -1,0 +1,285 @@
+.header
+  .top
+    .top-header
+      .option    
+        .unit(style="cursor:pointer")
+              h5
+                | EUR 
+                i.fas.fa-chevron-down
+                .arrow-up
+                ul.chose-unit
+                  li USD
+                  li EUR
+        .country(style="cursor:pointer")
+            img(src='../image/en.png' alt='')
+            h5
+                | ENG 
+                i.fas.fa-chevron-down
+                .arrow-up
+                ul.chose-country
+                  li
+                    img(src='../image/en.png' alt='')
+                    | ENG
+                  li
+                    img(src='../image/fr.png' alt='')
+                    |  FRA
+
+      .chose
+          .text 
+            h5 FREE RETURN, STANDARD SHIPPING ORDER $99+   
+          .links
+            a(href="#") Links
+            i.fas.fa-angle-down
+            .arrow-up
+            ul.link
+              li 
+                a(href="#")  About
+              li 
+                a(href="#")  Our Stores
+              li 
+                a(href="#")  Blog
+              li 
+                a(href="#")  Contact
+          .header-menu(style="cursor:pointer;")
+            ul
+              li Track Order
+              li About
+              li Our Stores
+              li Blog
+              Li Contact
+              li Help & FAQs        
+          .social(style="cursor:pointer")
+            i.fab.fa-instagram
+            i.fab.fa-facebook-f
+            i.fab.fa-twitter
+  .midle
+    .midle-header
+      .input
+          input#q.form-control.size(type='search' name='q' placeholder='Search...' required='')
+          select#cat(name="cat")
+            option(value) All Categories
+            option(value="4") Fashion
+            option(value="12") -Women          
+            option(value="13") -Men          
+            option(value="66") -Jewellery          
+            option(value="67") -Kids Fashion          
+            option(value="5") -Electronics          
+            option(value="21") -Smart TVs          
+            option(value="22") -Cameras          
+            option(value="63") -Games          
+            option(value="7") -Home & Gadern          
+            option(value="11") -Motors          
+            option(value="31") -Cars And Trucks          
+            option(value="32") -Motorcyles & Powersports          
+            option(value="33") -Parts & Accessories 
+            option(value="34") -Boats          
+            option(value="57") -Auto Tools & Supplies     
+          button(type="submit" ) 
+            i.fas.fa-search  
+      .midle-logo
+          i.fas.fa-bars.fa-2x#open(onclick="openNav()")
+          a(href="index.pug") 
+            img(src="../image/logo.png", alt="") 
+      .midle-right          
+        .phone
+          .phone-content
+            i.fas.fa-phone-alt.fa-3x
+            p CALL US NOW
+            span +123 456 789       
+          .phone-icon
+            a(href="#")
+              i.fas.fa-search.fa-3x 
+            a(href="#")
+              i.far.fa-user.fa-3x
+            a(href="#")
+              i.far.fa-heart.fa-3x
+            .cartt
+              a.model(href="#")  
+                i.fas.fa-shopping-bag.fa-3x
+                i.fas.fa-angle-down
+                p 2
+              .cart-content
+                .title-cart 
+                  h3.uppercase 2 items
+                  h4.uppercase view cart
+                .ring
+                  .ring-content.my-4
+                    h5.uppercase.mb-3 woman ring
+                    p 1 x $99.00
+                  img(src="../image/product-ring.jpg", alt="")  
+                .necklace
+                  .neck-content.my-4 
+                    h5.uppercase.mb-3 woman necklace
+                    p 2 x $145.00
+                  img(src="../image/product-mini.jpg", alt="")
+                .total
+                  h3.uppercase total
+                  p $134.00
+                a.uppercase(href="#") check out
+  .header-bot  
+    .main-menu
+      .left-menu
+        ul.menu
+          li 
+            a(href="index.pug").first HOME
+          li.has-sub 
+            a(href="category.html")  
+              |CATEGORY 
+              i.fas.fa-angle-down
+                ul.sub-menu
+                  table
+                    tr 
+                      th  VARIATION 1
+                      th  VARIATION 2
+                      img(src="../image/menu-banner.jpg", alt="")
+                    tr
+                      td
+                        a(href="#") FULL WIDTH BANNER
+                      td
+                        a(href="#") LIST TYPES 
+                    tr
+                      td
+                        a(href="#") BOXED SLIDER BANNER
+                      td
+                        a(href="#") AJAX INFINITE SCROLL    
+                    tr
+                      td
+                        a(href="#") BOXED IMAGE BANNER
+                      td
+                        a(href="#") 3 COLUMNS PRODUCTS    
+                    tr
+                      td
+                        a(href="#") LEFT SIDEBAR
+                      td
+                        a(href="#") 4 COLUMNS PRODUCTS
+                    tr
+                      td
+                        a(href="#") RIGHT SIDEBAR
+                      td
+                        a(href="#") 5 COLUMNS PRODUCTS
+                    tr
+                      td
+                        a(href="#") PRODUCTS FLEX GRID
+                      td
+                        a(href="#") 6 COLUMNS PRODUCTS
+                    tr
+                      td
+                        a(href="#") HORIZONTAL FILTER 1
+                      td
+                        a(href="#") 7 COLUMNS PRODUCTS          
+                    tr
+                      td
+                        a(href="#") HORIZONTAL FILTER 2
+                      td
+                        a(href="#") 8 COLUMNS PRODUCTS
+                                      
+
+          li.has-sub 
+            a(href="product.html") 
+              |PRODUCT              
+              i.fas.fa-angle-down
+                ul.sub-menu.sub-menu1
+                  table
+                    tr 
+                      th  VARIATION 1
+                      th  VARIATION 2
+                      th  PRODUCT LAYOUT TYPES
+                      img(src="../image/menu-bg.png", alt="")
+                    tr
+                      td
+                        a(href="#") HORIZONTAL THUMBS
+                      td
+                        a(href="#") STICKY TABS
+                      td
+                        a(href="#") DEFAULT LAYOUT 
+                    tr
+                      td
+                        a(href="#") VERTICAL THUMBNAILS
+                      td
+                        a(href="#") SIMPLE PRODUCT
+                      td
+                        a(href="#") EXTENDED LAYOUT
+                    tr
+                      td
+                        a(href="#") INNER ZOOM
+                      td
+                        a(href="#") WITH LEFT SIDEBAR 
+                      td
+                        a(href="#") FULL WIDTH LAYOUT
+                    tr
+                      td
+                        a(href="#") ADDTOCART STICKY
+                      td
+                        a(href="#")
+                      td
+                        a(href="#") GRID IMAGES LAYOUT 
+                    tr
+                      td
+                        a(href="#") ACCORDION TABS
+                      td
+                        a(href="#") 
+                      td
+                        a(href="#") STICKY BOTH SIDE INFO 
+                    tr
+                      td
+                        a(href="#") 
+                      td
+                        a(href="#")  
+                      td
+                        a(href="#") STICKY RIGHT SIDE INFO                                                      
+                    
+          li.has-sub.sub-4
+            a(href="#") 
+              | PAGE 
+              i.fas.fa-angle-down
+            ul.sub-menu.sub-menu2
+              li
+                a(href="#") SHOPPING CART
+              li.has-sub12
+                a(href="#") CHECKOUT 
+                  i.fas.fa-angle-right 
+                ul.sub-menu21
+                  li
+                    a(href="#") CHECKOUT SHIPPING 1 
+                  li
+                    a(href="#") CHECKOUT SHIPPING 2
+                  li
+                    a(href="#") CHECKOUT REVIEW 
+              li.has-sub12
+                a(href="#") DASHBOARD
+                  i.fas.fa-angle-right 
+                ul.sub-menu21.sub1
+                  li
+                    a(href="#") CHECKOUT SHIPPING 1 
+                  li
+                    a(href="#") CHECKOUT SHIPPING 2   
+              li
+                a(href="#") ABOOUT US
+              li.has-sub12
+                a(href="#") BLOG
+                  i.fas.fa-angle-right 
+                ul.sub-menu21.sub2
+                  li
+                    a(href="#") CHECKOUT SHIPPING 1 
+                  li
+                    a(href="#") CHECKOUT SHIPPING 2   
+              li
+                a(href="#") CONTACT US
+              li
+                a(href="#") LOGIN
+              li
+                a(href="#") FPRGOT PASSWORD                          
+                                    
+          li 
+            a(href="#") BLOG
+          li 
+            a(href="#") ABOUT US
+          li 
+            a(href="#") CONTACT US    
+          
+      .right-menu
+        ul
+          li
+            a(href="#") SPECIAL OFFER!
+          li 
+            a(href="#") BUY PORTO!

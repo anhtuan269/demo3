@@ -1,0 +1,111 @@
+@media screen and (min-width:320px){
+    .deal {
+        position: relative;
+    }
+    .deal .deal-bkg {
+        background-image: url(../image/promo-bg.png);
+        height:300px;
+        background-position-y: -200px;
+        background-attachment: fixed;
+        text-align:center;
+        font-family:Poppins, sans-serif;
+        padding-top:20px;
+    }
+    .deal .deal-bkg .deal-container {
+        position: relative;
+        height:100%
+    }
+    .deal .deal-container h2 {        
+        color:#222529;
+        font-size:2.2em;
+        font-weight: 700;
+
+    }
+    .deal .deal-container a {
+        text-decoration: none;
+        background-color:#7aa93c;
+        color:#FFF;
+        font-weight: 600;
+        padding: 15px 40px;
+        position: relative;
+        top:20px;
+    }
+    .deal .deal-container .coupon {
+        position: relative;
+        top: 50px;
+    } 
+    .deal .deal-container .coupon h4 {
+        font-weight:700;
+        color:#FFF;
+        background-color: #000;
+        display:inline-block;
+        transform: rotate(-3deg);
+        padding: 5px 10px;
+        
+    }
+    .deal .deal-container .coupon .upto {
+        transform: rotate(-90deg);
+        display: inline-block;
+        font-size: 0.9em;
+        position: relative;
+        top: 10px;
+    }
+    .deal .deal-container .coupon .box{
+        background-color: #FF7272;
+        display: inline-block;
+        padding: 5px 15px;
+        transform: rotate(-3deg);
+        position: relative;
+        top: 8px;
+        left: -5px;
+    }
+    .deal .deal-container .coupon .off {
+        color: #000;
+        font-weight: 500;
+        font-size: 1em;
+        position: relative;
+        top: 10px;
+        left: -3px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .deal .deal-container h2 {
+        position: absolute;
+        left: 15%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .deal .deal-container a {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .deal .deal-container .coupon {
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+} 
+@media screen and (min-width:1200px){
+
+    .deal .deal-container h2 {
+       font-size:3em;
+    }
+    .deal .deal-container a {
+      
+        font-size:2em;
+    }
+    .deal .deal-container .coupon {
+       font-size:2em;
+    }
+    .deal .deal-bkg .deal-container {
+        max-width:1200px;
+        margin-left :auto;
+        margin-right:auto;
+    }
+}

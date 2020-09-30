@@ -1,0 +1,103 @@
+@media screen and (min-width:320px){
+    .top-rate-product {
+        font-family: Poppins,sans-serif;
+        max-width: 290px;
+        margin:auto;
+    }
+    .top-rate-product h3 {
+        font-size:1.1em;
+        color:#222529;
+        font-weight:700;
+    }
+    .top-rate-product .top-rate img {
+        width:116px;
+        height:116px;
+    }
+    .top-rate-product .top-rate {
+        display: flex;
+        margin: 15px 0;
+    }
+    .top-rate-product .top-rate figure {
+        margin-right:20px;
+    }
+    .top-rate-product .top-rate a {
+        display: block;
+    }
+    .top-rate-product .top-rate .top-rate-content {
+        margin:auto 0;
+    }
+    .top-rate-product .top-rate .top-rate-content .category {
+        font-size: 0.7em;
+        font-weight: 500;
+        color: #777;
+    }
+    .top-rate-product .top-rate .top-rate-content .name {
+        font-size: 0.9em;
+        color: #222529;
+        
+    }
+    .top-rate-product .top-rate .top-rate-content h4 {
+        font-size: 1.1em;
+        font-weight: 600;
+        color: #222529;
+    }
+    .top-rate-product .top-rate .top-rate-content h4 span {
+        font-size: 0.9em;
+        font-weight: 500;
+        text-decoration: line-through;
+        padding-right: 10px;
+        color: #777;
+
+    }
+
+}
+@media screen and (min-width:480px){
+    .top-rate-product {        
+        max-width: 460px;
+        margin:auto;
+    }
+    
+}
+@media screen and (min-width:768px){
+    .total-product {
+        display: flex;
+        max-width:760px;
+        margin:auto;
+    }
+    .top-rate-product .top-rate .top-rate-content .name  {
+        color: inherit;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width:100px;
+        overflow: hidden;
+    }
+    .top-rate-product .top-rate {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .top-rate-product h3 {
+        padding-left: 10px;
+    }
+}
+@media screen and (min-width:890px){
+    .total-product {
+        max-width: 870px;
+        margin: auto;
+    }
+    .top-rate-product .top-rate .top-rate-content .name {
+        width:100%;
+    }
+}
+@media screen and (min-width:1200px){
+    .total-product {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .top-rate-product .top-rate img {
+        width:168px;
+        height:168px;
+    }
+    .total-product .top-rate-product .top-rate .top-rate-content {
+        font-size:1.1em;
+    }
+}

@@ -1,0 +1,174 @@
+@media screen and (min-width:320px){
+    .description  {
+        max-width:290px;
+        margin:auto;
+    }
+    .description .description-container {
+        border-bottom: 1px solid #ddd;
+    } 
+    .description .description-container .title a {
+        display: inline-block;
+        margin-right:25px;
+        padding: 10px 0;
+        font-size:0.9em;
+        font-weight:700;
+        color:#222529;
+    }
+    .description .description-container .title a:hover {
+        border-bottom: 2px solid #000;
+    }
+    .acti    {
+        border-bottom: 2px solid #000;
+    }
+    .hide{
+        display: none!important; 
+    }
+    .description .description-content {
+        padding-top:20px;
+        font-family: "Opens sans", sans-serif;
+    }
+    .description .description-content .descrip p {
+        font-size:0.9em;
+        line-height: 1.9;
+    }
+    .description .description-content .descrip .check {
+        padding-left:20px;
+        font-size:0.9em;
+        line-height:1.9;
+    } 
+    .description .description-content .descrip .check i {
+        margin-right:15px;
+        color:#000;
+    }
+    .description .description-content .more-info {
+        font-size: 0.9em;
+        line-height: 1.9;
+    }
+    .description .description-content .tags h2 {
+        color: #000;
+        font-size: 1.3em;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+    .description .description-content .tags input {
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-right: 5px;
+        width: 150px;
+    }
+    .description .description-content .tags a  {
+        background-color: #000;
+        color: #FFF;
+        padding: 10px;
+        font-weight: 700;
+        width: 130px;
+        display: inline-block;
+        text-align: center;
+    }
+    .description .description-content .tags p {
+        font-size: 0.9em;
+        margin-top: 10px;
+        line-height: 1.4;
+    }
+    .description .description-content .review .customer-review h2 {
+        font-size: larger;
+        color: #222529;
+        font-weight: 600;
+    }
+    .description .description-content .review .customer-review .john-review {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd
+    }
+    .description .description-content .review .customer-review .john-review figure img {
+        border: 1px solid #ddd;
+        border-radius: 50%;
+    }
+    .description .description-content .review .customer-review .john-review .review-content .vote{
+        color:#FD5B5A;
+    }
+    .description .description-content .review .customer-review .john-review .review-content h3 {
+        color: #222529;
+        font-weight: 600;
+    }
+    .description .description-content .review .customer-review .john-review .review-content h3 span {
+        color: #777;
+        font-weight: 400;
+    }
+    .description .description-content .comment-review  {
+        margin-top: 20px;
+        border: 1px solid #ddd;
+        background-color: #ddd;
+    }
+    .description .description-content .comment-review  .review-box {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .description .description-content .comment-review .review-box h4 {
+        color: #222529;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .description .description-content .comment-review .review-box h5 {
+        color: #222529;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    .description .description-content .comment-review .review-box .vote i {
+        font-weight: 100;
+    }
+    .description .description-content .comment-review .review-box h3 {
+        color: #222529;
+        font-weight: 600;
+        margin-bottom: 5px;
+    } 
+    .description .description-content .comment-review .review-box input {
+        width: 98%;
+        height:30px;
+    }
+    .description .description-content .comment-review .review-box .area {
+        width:98%;
+    }
+    .description .description-content .comment-review .review-box  .sub{
+        width: 150px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #000;
+        color: #FFF;
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+}
+@media screen and (min-width:480px){
+    .description {
+        max-width: 460px;
+    }
+}
+@media screen and (min-width:768px){
+    .description {
+        max-width: 740px;
+    }
+}
+@media screen and (min-width:890px){
+    .description {
+        max-width: 860px;
+    }
+}
+@media screen and (min-width:1200px){
+    .description {
+        max-width: 1140px;
+    }
+    .description .description-content .review .review-container {
+        display: grid;
+        grid-template-columns: 50% 45%;
+        justify-content: space-between;
+    }
+    .description .description-content .review .customer-review .john-review {
+        grid-template-columns: 20% 80%;
+    }
+}

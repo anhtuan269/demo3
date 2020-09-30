@@ -1,0 +1,138 @@
+.feature.my-8
+    .feature-container
+        h2.uppercase Feature products
+        .feature1.owl-carousel.owl-theme
+            .feature-product1
+                .image
+                    img(src="../image/product-13.jpg", alt="")
+                    h3.uppercase hot
+                    h4.uppercase -20%
+                    i.far.fa-heart
+                    a(href="#" title="Quick View") QUICK VIEW
+                .feature-content
+                    a.uppercase.category category
+                    a.name Products Short Name
+                    i.fas.fa-star(title="0")
+                    i.fas.fa-star(title="0")
+                    i.fas.fa-star(title="0")
+                    i.fas.fa-star(title="0")
+                    i.fas.fa-star(title="0")
+                    h4 
+                        span
+                            | $59.00
+                        |$49.00
+                   
+            .feature-product1
+                .image
+                    img(src="../image/product-12.jpg", alt="")
+                    h3.uppercase hot
+                    i.far.fa-heart
+                    a(href="#" title="Quick View") QUICK VIEW
+                .feature-content
+                    a.uppercase.category category
+                    a.name Products Short Name
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    h4 
+                        span
+                            | $59.00
+                        |$49.00
+            .feature-product1
+                .image
+                    img(src="../image/product-14.jpg", alt="")
+                    i.far.fa-heart
+                    a(href="#" title="Quick View") QUICK VIEW
+                .feature-content
+                    a.uppercase.category category
+                    a.name Products Short Name
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    h4 
+                        span
+                            | $59.00
+                        |$49.00
+            .feature-product1
+                .image
+                    img(src="../image/product-15.jpg", alt="")
+                    h3.uppercase hot
+                    h4.uppercase -20%
+                    i.far.fa-heart
+                    a(href="#" title="Quick View") QUICK VIEW
+                .feature-content
+                    a.uppercase.category category
+                    a.name Products Short Name
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    h4 
+                        span
+                            | $59.00
+                        |$49.00
+            .feature-product1
+                .image
+                    img(src="../image/product-16.jpg", alt="")
+                    h4.uppercase -20%
+                    i.far.fa-heart
+                    a(href="#" title="Quick View") QUICK VIEW
+                .feature-content
+                    a.uppercase.category category
+                    a.name Products Short Name
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    h4 
+                        span
+                            | $59.00
+                        |$49.00
+            .feature-product1
+                .image
+                    img(src="../image/product-10.jpg", alt="")
+                    h4.uppercase -20%
+                    i.far.fa-heart
+                    a(href="#" title="Quick View") QUICK VIEW
+                .feature-content
+                    a.uppercase.category category
+                    a.name Products Short Name
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    i.fas.fa-star
+                    h4 
+                        span
+                            | $59.00
+                        |$49.00
+script.
+     $(document).ready(function() {
+      $('.feature1').owlCarousel({
+      nav: false,
+      loop: true,
+      responsive: {
+      1000: {
+      items: 4
+      },
+      768: {
+      items: 3
+      },
+      480: {
+      items: 2
+      },
+      320: {
+        items: 2
+      },
+      0: {
+      items: 1
+      }
+      }
+      })
+      });

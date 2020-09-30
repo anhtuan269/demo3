@@ -1,0 +1,79 @@
+@media screen and (min-width: 320px){
+    .customer {
+        border-top: 1px solid #777;
+    }
+    .customer .customer-container {
+        max-width: 290px;
+        margin: auto;
+        text-align: center;
+        font-family:Poppins, sans-serif;
+        padding-top:10px;
+        
+    }
+    .customer .customer-container .custom {
+        margin: 40px 0;
+    }
+    .customer .customer-container .custom i{
+        color:#7aa93c;
+        font-size:3em;
+        padding: 15px;
+        border: 2px solid #ddd;
+        border-radius: 50%;
+    }
+    .customer .customer-container .custom h3 {
+        color:#222529;
+        font-weight:700;
+    }
+    .customer .customer-container .custom h5 {
+        color:#555;
+        font-weight:500;
+        margin-bottom: 20px;
+        font-size:1em;
+    }
+    .customer .customer-container .custom  p{
+        
+        font-size:0.9em;
+    }
+}
+@media screen and (min-width:480px){
+    .customer .customer-container {
+        max-width: 460px;
+        
+    }
+}
+@media screen and (min-width:768px){
+    .customer .customer-container {
+        max-width: 760px;
+        display:flex;        
+    }
+    .customer .customer-container .custom  p{
+        
+        max-width:250px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:890px){
+    .customer .customer-container {
+        max-width: 860px;
+        margin:auto;
+    }
+    .customer .customer-container {
+        justify-content: space-between;
+    } 
+    .customer .customer-container .custom  p{
+        
+        max-width:270px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1200px){
+    .customer .customer-container {
+        max-width: 1200px;
+        margin:auto;
+    }
+    .customer .customer-container .custom  p{
+        
+        max-width:380px;
+        text-align: center;
+    }
+}
